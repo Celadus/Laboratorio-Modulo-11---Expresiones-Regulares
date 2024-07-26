@@ -1,6 +1,7 @@
 # typescript-sandbox
 
-Para la parte de cada módulo en la que te planteamos ejercicios con JavaScript puedes usar este sandbox.
+**Apartado B**: Crea una aplicación con un textarea y un botón de "extraer enlaces a imágenes".  
+Cuando se pincha en el botón extrae los enlaces a las imágenes que haya en el textarea y las muestra en pantalla.
 
 Pasos:
 
