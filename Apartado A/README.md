@@ -1,6 +1,6 @@
 # typescript-sandbox
 
-Para la parte de cada módulo en la que te planteamos ejercicios con JavaScript puedes usar este sandbox.
+**Apartado A**: Crea una aplicación para leer IBAN de cuentas de bancos españoles, verificar que estén bien formados, validarlos y extraer información de los mismos.
 
 Pasos:
 
