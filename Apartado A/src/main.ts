@@ -1,3 +1,4 @@
 import "./style.css";
+import { content } from "./validarUI";
 
-console.log("Hello Typescript!");
+document.addEventListener("DOMContentLoaded", content);
