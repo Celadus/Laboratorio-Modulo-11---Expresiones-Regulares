@@ -12,7 +12,8 @@ Pasos:
 
 HTML de ejemplo:
 
-`<html lang="en">
+```html
+<html lang="en">
   <head>
     <script type="module">
       import { inject } from "/@vite-plugin-checker-runtime";
@@ -31,7 +32,7 @@ HTML de ejemplo:
   </head>
   <body>
     <div class="root">
-      <h1>Personajes de Moradelo y Filemón</h1>
+      <h1>Personajes de Mortadelo y Filemón</h1>
       <form class="find-container">
         <input id="search" />
         <button type="submit" id="button-search">Filtrar</button>
@@ -147,4 +148,6 @@ HTML de ejemplo:
       <script type="module" src="main.ts"></script>
     </div>
   </body>
-</html>`  
+</html>
+`
+```
