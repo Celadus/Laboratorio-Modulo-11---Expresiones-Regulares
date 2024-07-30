@@ -12,7 +12,8 @@ Pasos:
 
 HTML de ejemplo:
 
-  <html lang="en">
+`<html lang="en">
+
   <head>
     <script type="module">
       import { inject } from "/@vite-plugin-checker-runtime";
@@ -21,16 +22,13 @@ HTML de ejemplo:
         base: "/",
       });
     </script>
-
     <script type="module" src="/@vite/client"></script>
-
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="reset-estilos.css" />
     <link rel="stylesheet" href="estilos.css" />
     <title>Laboratorio Asinconía</title>
-
   </head>
   <body>
     <div class="root">
@@ -150,4 +148,4 @@ HTML de ejemplo:
       <script type="module" src="main.ts"></script>
     </div>
   </body>
-</html>
+</html>`
