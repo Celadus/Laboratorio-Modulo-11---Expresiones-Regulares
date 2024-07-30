@@ -1,3 +1,6 @@
+import { extraerDatos } from "./extraer";
 import "./style.css";
 
-console.log("Hello Typescript!");
+document.addEventListener("DOMContentLoaded", () => {
+  extraerDatos() ;
+});

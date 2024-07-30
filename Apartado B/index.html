@@ -4,11 +4,19 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + TS</title>
+    <title>Extraer Imagenes</title>
   </head>
   <body>
-    <div id="app">
-      <h1>TypeScript Sandbox</h1>
+    <div id="app" >
+      <h1>Extraer Imagenes</h1>
+      <h2>Pegue el HTML</h2>
+      <div class="area">
+        <textarea id="textarea" class="textarea">
+        </textarea>
+        <button id="boton" >Extraer Imagenes</button>
+      </div>
+      <div id="resultado" class="listaUrl"></div>
+      <div id="resultadoImagenes" class="grid"></div>
     </div>
     <script type="module" src="/src/main.ts"></script>
   </body>
