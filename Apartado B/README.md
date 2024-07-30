@@ -13,7 +13,6 @@ Pasos:
 HTML de ejemplo:
 
 `<html lang="en">
-
   <head>
     <script type="module">
       import { inject } from "/@vite-plugin-checker-runtime";
@@ -148,4 +147,4 @@ HTML de ejemplo:
       <script type="module" src="main.ts"></script>
     </div>
   </body>
-</html>`
+</html>`  
