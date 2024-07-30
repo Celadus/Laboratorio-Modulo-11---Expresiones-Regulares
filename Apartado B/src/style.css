@@ -19,7 +19,7 @@ body {
   display: flex;
   place-items: center;
   min-width: 320px;
-  min-height: 100vh; 
+  min-height: 100vh;
 }
 
 h1 {
@@ -30,7 +30,7 @@ h1 {
 
 .area {
   display: flex;
-  flex-direction: column; 
+  flex-direction: column;
 }
 
 .area textarea {
@@ -73,17 +73,19 @@ h1 {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); 
-  gap: 10px;
+  grid-template-columns: repeat(2, 1fr); /* Cambia qui per avere 2 colonne */
+  gap: 150px;
   padding: 10px;
   align-items: center;
+  justify-content: center;
+  margin-left: 100px;
 }
 
 .grid img {
-  width: 100%;
-  height: 100%;
+  max-width: 100%; /* Assicurati che le immagini non superino la larghezza della colonna */
+  max-height: 150px; /* Imposta un'altezza massima per ridurre le dimensioni delle immagini */
+  object-fit: cover; /* Mantieni le proporzioni delle immagini */
 }
-
 
 button {
   border-radius: 8px;
