@@ -3,17 +3,25 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Extraer Imagenes</title>
   </head>
   <body>
-    <div id="app" >
+    <div id="app">
       <h1>Extraer Imagenes</h1>
-      <h2>Pegue el HTML</h2>
+      <h2>Pegue el HTML y pulsa el boton</h2>
       <div class="area">
-        <textarea id="textarea" class="textarea">
+        <textarea
+          id="textarea"
+          class="textarea"
+          placeholder="Pegue aqui el HTML"
+        >
         </textarea>
-        <button id="boton" >Extraer Imagenes</button>
+        <button id="boton">Extraer enlaces a imágenes</button>
       </div>
       <div id="resultado" class="listaUrl"></div>
       <div id="resultadoImagenes" class="grid"></div>
