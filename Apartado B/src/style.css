@@ -1,23 +1,12 @@
 
-
 :root {
   font-family: "Ubuntu Sans", sans-serif;
   line-height: 1.5;
   font-weight: 400;
-
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-} 
-
-
-
+}
 
 body {
   margin: 0;
@@ -63,7 +52,10 @@ h1 {
 
 .grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr); /* Cambia qui per avere 2 colonne */
+  grid-template-columns: repeat(
+    2,
+    1fr
+  ); /* Indicatore del numero di 2 colonne */
   gap: 40px;
   padding: 10px;
   align-items: center;
@@ -111,9 +103,11 @@ button:focus-visible {
     color: #213547;
     background-color: #ffffff;
   }
+
   a:hover {
     color: #337c37;
   }
+
   button {
     background-color: #4caf50;
   }
